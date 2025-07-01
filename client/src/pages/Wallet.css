@@ -1,0 +1,93 @@
+.wallet-container {
+  min-height: 100vh;
+  background: linear-gradient(to right, #1e1e2f, #232946);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wallet-card {
+  background-color: #2a2a3c;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+  width: 100%;
+  max-width: 500px;
+}
+
+.wallet-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.wallet-title span {
+  margin-right: 0.5rem;
+}
+
+.coins {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.recharge-section {
+  margin-bottom: 2rem;
+}
+
+.recharge-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.recharge-title span {
+  margin-right: 0.5rem;
+}
+
+.recharge-btn {
+  background-color: #4ade80;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  margin-right: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.recharge-btn:hover {
+  background-color: #22c55e;
+}
+
+.transaction-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.transaction-title span {
+  margin-right: 0.5rem;
+}
+
+.transactions {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.transactions li {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+  color: #f3f4f6;
+}
